@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #c3dcf6;
+    height: 100vh;
+
+}
+
+.container{
+    width: 300px;
+    height: auto;
+    margin:100px auto;
+    background-color: #fff;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+}
+.container img{
+    width: 100%;
+    border-radius: 10px;
+}
+.container p{
+    text-align: justify;
+      font-size: 0.9375rem;
+    color: hsl(220, 15%, 55%);
+    padding: 0 10px 20px; 
+
+}
+.container h2{
+    font-size: 1.25rem;
+    color: hsl(218, 44%, 22%);
+    margin: 20px 0 10px;
+}
